@@ -27,13 +27,16 @@ Installation
 1. [Install Node.js and
 npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
 2. Install Grunt: `npm install -g grunt-cli`
-3. Clone the repository: `git clone https://github.com/ei14/tab-less-togglable.git`
-4. Enter the repository folder: `cd tab-less-togglable`
-5. Install the dependencies: `npm install`
-6. Build the extension: `grunt`
-7. In Chrome, go to `chrome://extensions` and enable *Developer mode* in the
+    * On a Mac: `brew install grunt-cli`
+3. Install [ImageMagick](https://imagemagick.org/script/download.php)
+    * On a Mac: `brew install imagemagick`
+4. Clone the repository: `git clone https://github.com/ei14/tab-less-togglable.git`
+5. Enter the repository folder: `cd tab-less-togglable`
+6. Install the dependencies: `npm install`
+7. Build the extension: `grunt`
+8. In Chrome, go to `chrome://extensions` and enable *Developer mode* in the
 upper right corner
-8. Install the extension. There are two different ways to do this; choose one:
+9. Install the extension. There are two different ways to do this; choose one:
     1. Load unpacked. Useful for testing and quick installation.
         * Click *Load unpacked*
         * Navigate to `tab-less-togglable/dist` and open
